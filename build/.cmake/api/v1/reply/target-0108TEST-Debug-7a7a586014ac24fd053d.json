@@ -67,6 +67,26 @@
 			[
 				0
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/zfrxn/Documents/GitHub/Test0108/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"id" : "0108TEST::@6890427a1f51a3e7e1df",
@@ -80,6 +100,16 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "C:\\Users\\zfrxn\\Documents\\GitHub\\Test0108\\lib\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\zfrxn\\Documents\\GitHub\\Test0108\\lib\\libglfw3dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "-lopengl32",
 				"role" : "libraries"
 			},
@@ -88,7 +118,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "0108TEST",
 	"nameOnDisk" : "0108TEST.exe",
@@ -103,7 +133,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -113,6 +144,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

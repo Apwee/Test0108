@@ -4,5 +4,11 @@
   "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/0108TEST.dir/includes_C.rsp -g -o CMakeFiles\\0108TEST.dir\\src\\glad.c.obj -c C:\\Users\\zfrxn\\Documents\\GitHub\\Test0108\\src\\glad.c",
   "file": "C:/Users/zfrxn/Documents/GitHub/Test0108/src/glad.c",
   "output": "CMakeFiles/0108TEST.dir/src/glad.c.obj"
+},
+{
+  "directory": "C:/Users/zfrxn/Documents/GitHub/Test0108/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/0108TEST.dir/includes_CXX.rsp -g -o CMakeFiles\\0108TEST.dir\\src\\main.cpp.obj -c C:\\Users\\zfrxn\\Documents\\GitHub\\Test0108\\src\\main.cpp",
+  "file": "C:/Users/zfrxn/Documents/GitHub/Test0108/src/main.cpp",
+  "output": "CMakeFiles/0108TEST.dir/src/main.cpp.obj"
 }
 ]

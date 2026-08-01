@@ -19,15 +19,6 @@ target_include_directories(
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
+    ${LIB_DIR}
     opengl32
 )
-
-message(STATUS "Dentro de SOURCES:")
-foreach(ITEM IN LISTS SOURCES)
-    message(STATUS "Item actual dentro de SOURCES: ${ITEM}")
-endforeach(ITEM IN LISTS SOURCES)
-
-message(STATUS "Dentro de LIB_DIR:")
-foreach(ITEM IN LISTS LIB_DIR)
-    message(STATUS "Item actual dentro de LIB_DIR: ${ITEM}")
-endforeach()
