@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/zfrxn/Documents/GitHub/Test0108/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/0108TEST.dir/includes_C.rsp -g -o CMakeFiles\\0108TEST.dir\\src\\glad.c.obj -c C:\\Users\\zfrxn\\Documents\\GitHub\\Test0108\\src\\glad.c",
+  "file": "C:/Users/zfrxn/Documents/GitHub/Test0108/src/glad.c",
+  "output": "CMakeFiles/0108TEST.dir/src/glad.c.obj"
+}
+]
